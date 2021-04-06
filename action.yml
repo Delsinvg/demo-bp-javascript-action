@@ -1,0 +1,13 @@
+name: 'Demo Bachelorproef'
+description: 'Begroet iemand en noteer de tijd'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Wie te begroeten'
+    required: true
+    default: 'iedereen'
+outputs:
+  time: # id of output
+    description: 'De tijd dat we je begroetten'
+runs:
+  using: 'node12'
+  main: 'index.js'
